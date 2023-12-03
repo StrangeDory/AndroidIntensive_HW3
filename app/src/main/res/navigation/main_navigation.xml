@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/nav_main"
-        android:name="com.example.androidintensive_hw3.ContactsFragment"
+        android:name="com.example.androidintensive_hw3.contacts.ContactsFragment"
         tools:layout="@layout/fragment_contacts"/>
 
     <fragment
         android:id="@+id/nav_contact_detail"
-        android:name="com.example.androidintensive_hw3.ContactDetailFragment"
+        android:name="com.example.androidintensive_hw3.contact_detail.ContactDetailFragment"
         tools:layout="@layout/fragment_contact_detail"/>
 
 </navigation>
